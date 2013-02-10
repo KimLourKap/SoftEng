@@ -1,5 +1,5 @@
 
-public class userAccount {
+public class UserAccount {
 	
 	String name;
 	String pass;
@@ -9,7 +9,7 @@ public class userAccount {
 	
 	
 
-	public userAccount(String name, String pass, boolean boolTrust) {
+	public UserAccount(String name, String pass, boolean boolTrust) {
 		this.name=name;
 		this.pass=pass;
 		this.boolTrust=boolTrust;

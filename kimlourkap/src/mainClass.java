@@ -6,19 +6,10 @@ import java.sql.Statement;
 import java.util.Observable;
 
 
-public class mainClass extends Observable {
-
-
-
-
-
+public class MainClass extends Observable {
 
 	public static void main(String[] args) {
 
-
-
-		System.out.println("userName    pasword    totalPosts        trusted\t\t\treview\t\t\trev_id");
-		/************************************************************************/
 		Connection conn=null;
 		Statement stmt=null;
 		ResultSet rs=null;
@@ -42,8 +33,6 @@ public class mainClass extends Observable {
 				int rev_id = rs.getInt("rev_id");
 				System.out.println(userName + "\t\t" + password + "\t\t" + totalPosts + "\t\t" + trusted +"\t\t" + review + "\t\t" + rev_id);
 
-
-
 			}
 
 		}
@@ -57,18 +46,14 @@ public class mainClass extends Observable {
 			try { if(conn != null) conn.close(); } catch (SQLException e) { e.printStackTrace(); }
 		}
 
-
-
-
-		//EventQueue.invokeLater(new Runnable() {
-		//public void run() {
 		try {
-			site frame = new site();
+			Site frame = new Site();
 			frame.setVisible(true);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		
 	}
 
 }

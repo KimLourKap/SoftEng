@@ -14,11 +14,11 @@ import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class site extends JFrame {
+public class Site extends JFrame {
 
 	private JPanel contentPane;
 
-	public site() {
+	public Site() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 604, 430);
 		contentPane = new JPanel();
@@ -44,7 +44,7 @@ public class site extends JFrame {
 		btnReview1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				JTextArea textAr = new JTextArea("",20,50);
+				JTextArea textAr = new JTextArea("",8,40);
 
 				int okbtn = JOptionPane.showConfirmDialog(null,
 						textAr,
@@ -200,13 +200,5 @@ public class site extends JFrame {
 		contentPane.add(btnRate);
 	}
 
-	//private class SwingAction extends AbstractAction {
-	//	public SwingAction() {
-		//	putValue(NAME, "SwingAction");
-		//	putValue(SHORT_DESCRIPTION, "Some short description");
-		//}
-	//	public void actionPerformed(ActionEvent e) {
-	//	}
-	//}
 }
 

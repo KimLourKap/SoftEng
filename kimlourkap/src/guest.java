@@ -1,10 +1,10 @@
 
-public class guest {
+public class Guest {
 	
 	String name ="guest";
 
 	
-	public guest(String name) {
+	public Guest(String name) {
 		this.name = name;
 	}
 	

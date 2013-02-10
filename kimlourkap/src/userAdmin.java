@@ -1,5 +1,5 @@
 
-public class userAdmin {
+public class UserAdmin {
 	
 	String name;
 	String pass;
