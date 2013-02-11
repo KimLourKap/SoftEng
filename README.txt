@@ -1,4 +1,4 @@
 -"db"					Database
 -"diagrammata_analysiApaitisewn"	Diagrams and other files(analysi apaitisewn)
 -"kimlourkap"				Java project
--"screenShots"				ScreenShots of the programm while running
+-"screenShots"				ScreenShots of the programm while running and UML
