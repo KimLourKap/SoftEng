@@ -1,0 +1,96 @@
+
+src/Guest.java:2	All classes and interfaces must belong to a named package
+src/Guest.java:2	Class names should begin with an uppercase character
+src/Guest.java:4	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Guest.java:4	Use explicit scoping instead of the default package private level
+src/Guest.java:7	Parameter 'name' is not assigned and could be declared final
+src/Guest.java:11	Document empty method
+src/MainClass.java:9	All classes and interfaces must belong to a named package
+src/MainClass.java:9	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/MainClass.java:9	Class names should begin with an uppercase character
+src/MainClass.java:9	The class 'mainClass' has a Cyclomatic Complexity of 11 (Highest = 10).
+src/MainClass.java:11	Parameter 'args' is not assigned and could be declared final
+src/MainClass.java:11	The method 'main' has a Cyclomatic Complexity of 10.
+src/MainClass.java:13	Found 'DD'-anomaly for variable 'conn' (lines '13'-'22').
+src/MainClass.java:14	Found 'DD'-anomaly for variable 'stmt' (lines '14'-'23').
+src/MainClass.java:15	Avoid variables with short names like rs
+src/MainClass.java:15	Found 'DD'-anomaly for variable 'rs' (lines '15'-'24').
+src/MainClass.java:19	Local variable 'connectionURL' could be declared final
+src/MainClass.java:20	Local variable 'connectionUser' could be declared final
+src/MainClass.java:21	Local variable 'connectionPass' could be declared final
+src/MainClass.java:28	Local variable 'userName' could be declared final
+src/MainClass.java:29	Local variable 'password' could be declared final
+src/MainClass.java:34	System.out.print is used
+src/MainClass.java:34	The String literal "\t\t" appears 5 times in this file; the first occurrence is on line 34
+src/MainClass.java:40	Avoid printStackTrace(); use a logger call instead.
+src/MainClass.java:44	Avoid printStackTrace(); use a logger call instead.
+src/MainClass.java:44	Avoid using if statements without curly braces
+src/MainClass.java:45	Avoid printStackTrace(); use a logger call instead.
+src/MainClass.java:45	Avoid using if statements without curly braces
+src/MainClass.java:46	Avoid printStackTrace(); use a logger call instead.
+src/MainClass.java:46	Avoid using if statements without curly braces
+src/MainClass.java:54	Avoid printStackTrace(); use a logger call instead.
+src/Site.java:17	All classes and interfaces must belong to a named package
+src/Site.java:17	Class names should begin with an uppercase character
+src/Site.java:17	The class 'site' has a Cyclomatic Complexity of 11 (Highest = 10).
+src/Site.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Site.java:19	Perhaps 'contentPane' could be replaced by a local variable.
+src/Site.java:19	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Site.java:21	It is a good practice to call super() in a constructor
+src/Site.java:21	The constructor 'site' has a Cyclomatic Complexity of 10.
+src/Site.java:29	Local variable 'btnLogIn' could be declared final
+src/Site.java:31	Avoid variables with short names like e
+src/Site.java:31	Parameter 'e' is not assigned and could be declared final
+src/Site.java:32	System.out.print is used
+src/Site.java:39	Local variable 'btnLogOut' could be declared final
+src/Site.java:43	Local variable 'btnReview1' could be declared final
+src/Site.java:45	Avoid variables with short names like e
+src/Site.java:45	Parameter 'e' is not assigned and could be declared final
+src/Site.java:47	Local variable 'textAr' could be declared final
+src/Site.java:49	Local variable 'okbtn' could be declared final
+src/Site.java:56	System.out.print is used
+src/Site.java:132	Avoid variables with short names like e
+src/Site.java:132	Parameter 'e' is not assigned and could be declared final
+src/Site.java:147	Found 'DU'-anomaly for variable 'UserName' (lines '147'-'201').
+src/Site.java:147	Found 'DU'-anomaly for variable 'UserName' (lines '147'-'201').
+src/Site.java:147	Found 'DU'-anomaly for variable 'UserName' (lines '147'-'201').
+src/Site.java:147	Found 'DU'-anomaly for variable 'UserName' (lines '147'-'201').
+src/Site.java:148	Found 'DU'-anomaly for variable 'Password' (lines '148'-'201').
+src/Site.java:148	Found 'DU'-anomaly for variable 'Password' (lines '148'-'201').
+src/Site.java:148	Found 'DU'-anomaly for variable 'Password' (lines '148'-'201').
+src/Site.java:148	Found 'DU'-anomaly for variable 'Password' (lines '148'-'201').
+src/Site.java:153	Use equals() to compare strings instead of '==' or '!='
+src/Site.java:153	Use equals() to compare strings instead of '==' or '!='
+src/Site.java:161	System.out.print is used
+src/Site.java:162	System.out.print is used
+src/Site.java:173	Avoid variables with short names like e
+src/Site.java:173	Parameter 'e' is not assigned and could be declared final
+src/Site.java:182	Use equals() to compare strings instead of '==' or '!='
+src/Site.java:190	System.out.print is used
+src/UserAccount.java:2	All classes and interfaces must belong to a named package
+src/UserAccount.java:2	Class names should begin with an uppercase character
+src/UserAccount.java:4	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserAccount.java:4	Use explicit scoping instead of the default package private level
+src/UserAccount.java:5	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserAccount.java:5	Use explicit scoping instead of the default package private level
+src/UserAccount.java:6	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserAccount.java:6	Use explicit scoping instead of the default package private level
+src/UserAccount.java:12	Parameter 'boolTrust' is not assigned and could be declared final
+src/UserAccount.java:12	Parameter 'name' is not assigned and could be declared final
+src/UserAccount.java:12	Parameter 'pass' is not assigned and could be declared final
+src/UserAdmin.java:2	All classes and interfaces must belong to a named package
+src/UserAdmin.java:2	Class names should begin with an uppercase character
+src/UserAdmin.java:2	Each class should declare at least one constructor
+src/UserAdmin.java:4	Use explicit scoping instead of the default package private level
+src/UserAdmin.java:5	Use explicit scoping instead of the default package private level
+src/UserTrusted.java:2	All classes and interfaces must belong to a named package
+src/UserTrusted.java:2	Class names should begin with an uppercase character
+src/UserTrusted.java:4	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserTrusted.java:4	Use explicit scoping instead of the default package private level
+src/UserTrusted.java:5	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserTrusted.java:5	Use explicit scoping instead of the default package private level
+src/UserTrusted.java:6	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/UserTrusted.java:6	Use explicit scoping instead of the default package private level
+src/UserTrusted.java:9	Parameter 'boolTrust' is not assigned and could be declared final
+src/UserTrusted.java:9	Parameter 'name' is not assigned and could be declared final
+src/UserTrusted.java:9	Parameter 'pass' is not assigned and could be declared final
