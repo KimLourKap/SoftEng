@@ -4,7 +4,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;import javax.swing.JPasswordField;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
@@ -29,14 +30,60 @@ public class Site extends JFrame {
 		JButton btnLogIn = new JButton("log in");
 		btnLogIn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("test");
+				
+				
+
+
+				JTextField username = new JTextField(10);
+				JPasswordField pass = new JPasswordField(10);  
+
+				JPanel myPanel = new JPanel();
+				myPanel.add(new JLabel("Username:"));
+				myPanel.add(username);
+				myPanel.add(Box.createHorizontalStrut(15)); // a spacer
+				myPanel.add(new JLabel("Password:"));
+				myPanel.add(pass);
+
+				int result = JOptionPane.showConfirmDialog(null, myPanel, 
+						"Εισάγετε όνομα χρήστη και κωδικό", JOptionPane.OK_CANCEL_OPTION);
+
+				String UserName = username.getText();
+				String Password =  new String(pass.getPassword());
+
+				
+				if (result == JOptionPane.OK_OPTION) {
+
+					if ( UserName == "" || Password == "" ){
+
+						JOptionPane.showMessageDialog(null,"error");
+					}
+					else{
+
+						JOptionPane.showMessageDialog(null,"Γεια σου "+UserName+" ,η σύνδεση ολοκληρώθηκε!");
+
+						
+						
+						
+						System.out.println("Username " + UserName);
+						System.out.println("Password: " + Password);
+					}
+				}
 			}
-		});
+		});				
+				
+						
+			
 		
 		btnLogIn.setBounds(393, 11, 89, 23);
 		contentPane.add(btnLogIn);
 
 		JButton btnLogOut = new JButton("log out");
+		btnLogOut.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				JOptionPane.showMessageDialog(null,"Έγινε αποσύνδεση");
+			}
+		});
 		btnLogOut.setBounds(492, 11, 89, 23);
 		contentPane.add(btnLogOut);
 
@@ -131,6 +178,8 @@ public class Site extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				
 				JTextField username = new JTextField(10);
 				JPasswordField pass = new JPasswordField(10);  
 
@@ -157,9 +206,11 @@ public class Site extends JFrame {
 					else{
 
 						JOptionPane.showMessageDialog(null,"Γεια σου "+UserName+" ,η εγγραφή ολοκληρώθηκε!");
-
-						System.out.println("Username " + UserName);
-						System.out.println("Password: " + Password);
+						
+						new UserAccount(UserName,Password,false);
+						
+						
+						
 					}
 				}
 			}
