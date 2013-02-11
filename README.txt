@@ -1,3 +1,4 @@
-Java project under folder "kimlourkap"
-The database that we use is in the folder "db"
-Diagrams and other files under folder "diagrammata"
+-"db"					Database
+-"diagrammata_analysiApaitisewn"	Diagrams and other files(analysi apaitisewn)
+-"kimlourkap"				Java project
+-"screenShots"				ScreenShots of the programm while running
